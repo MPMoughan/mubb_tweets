@@ -1,0 +1,46 @@
+<% include ../partials/header %>
+
+
+  <br>
+  <br>
+    <div class="row">
+      <div class="col-xs-4 col-md-3">
+
+        <div class="row" id="left-search">
+          <button id = "startbutton" class="btn btn-primaryr">
+            <h4> #mubb </h4>
+            <div id="tweet-count">
+              <div id="counter">
+                <h5>#mubb tweet count</h5>
+              </div>
+            </div>
+          </button>
+  <br>
+  <br>
+        <div class="row" id="left-scroll">
+          <div class="col-xs-10">
+            <div id="tweetd"></div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="col-xs-6 col-md-9">
+    <div id="map"></div>
+  </div>
+</div>
+
+  </body>
+
+ <script type="text/javascript" charset="utf-8">
+
+  globeTweet.renderMap();
+
+  $("#startbutton").on("click", function () {
+
+    globeTweet.startStream();
+  })
+
+</script>
+</html>

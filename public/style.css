@@ -1,0 +1,170 @@
+.message {
+  margin-top: 20px;
+  margin-bottom: -10px;
+  color: #FC4607;
+}
+
+.page-content {
+  margin-top: 50px;
+}
+
+#left-scroll {
+  height: 588px;
+  overflow: scroll;
+}
+
+.clr:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+h1 {
+  margin-top: 30px;
+}
+
+h4 {
+  margin-bottom: 30px;
+  color: black;
+  position: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+#startbutton {
+
+   border-top: 1px solid #96d1f8;
+   background: #ff0000;
+   background: -webkit-gradient(linear, left top, left bottom, from(#f70d0d), to(#ff0000));
+   background: -webkit-linear-gradient(top, #f70d0d, #ff0000);
+   background: -moz-linear-gradient(top, #f70d0d, #ff0000);
+   background: -ms-linear-gradient(top, #f70d0d, #ff0000);
+   background: -o-linear-gradient(top, #f70d0d, #ff0000);
+   padding: 6.5px 13px;
+   -webkit-border-radius: 32px;
+   -moz-border-radius: 32px;
+   border-radius: 32px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 18px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #f9fcfc;
+   background: #f9fcfc;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #deb562;
+   background: #deb562;
+}
+
+form {
+  margin-top: 15px;
+  margin-bottom: 80px;
+}
+
+p {
+  color: black;
+  font-size: 20px;
+}
+
+input {
+  color: black;
+}
+
+
+.sign-log {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.sign-log input {
+  margin-top: -15px;
+}
+
+.sign-log p {
+  margin-top: 10px;
+}
+
+.sign-log-btn {
+  margin-bottom: -30px;
+}
+
+#tweet-count {
+  display: none;
+}
+
+#counter {
+  display: inline;
+}
+
+
+#wait-msg {
+  display: none;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+#tweetd img {
+  float: left;
+  width: 50px;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+
+#tweetd div {
+  margin-bottom: 20px;
+}
+
+#map {
+  width: 550px;
+  height: 450px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  float: right;
+}
+
+#four-oh-four {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.btn {
+  background-color: #FC4607;
+  color: #fff;
+}
+.buttonClass {
+    width:          30px;
+    height:         40px;
+    padding:        10px 60px;
+    display: inline;
+  }
+
+
+body {
+    position: relative;
+}
+
+body:after {
+    background-image: url('../vendor/images/marquette_team.png') ;
+    opacity: 0.7;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    display: block;
+    position: absolute;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+};
