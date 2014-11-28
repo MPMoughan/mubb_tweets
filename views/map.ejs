@@ -1,5 +1,6 @@
 <% include ../partials/header %>
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
   <br>
   <br>
@@ -8,10 +9,10 @@
 
         <div class="row" id="left-search">
           <button id = "startbutton" class="btn btn-primaryr">
-            <h4> #mubb </h4>
+            <h5> click here </h5>
             <div id="tweet-count">
               <div id="counter">
-                <h5>#mubb tweet count</h5>
+                <h4>#mubb tweet tracker</h4>
               </div>
             </div>
           </button>
@@ -27,6 +28,10 @@
     </div>
 
   <div class="col-xs-6 col-md-9">
+
+  <a data-remote="https://www.youtube.com/watch?v=2NXHrc080-E" data-toggle="lightbox" data-type="youtube">PRAY</a>
+
+
     <div id="map"></div>
   </div>
 </div>
@@ -43,4 +48,11 @@
   })
 
 </script>
+
+<script>
+$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+}); </script>
+
 </html>

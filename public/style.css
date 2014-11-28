@@ -25,20 +25,27 @@ h1 {
 
 h4 {
   margin-bottom: 30px;
-  color: black;
+  color: #ffd700;
+  position: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+h5 {
+  margin-bottom: 30px;
+  color: #ffd700;
   position: center;
   font-family: 'Oswald', sans-serif;
 }
 
 #startbutton {
 
-   border-top: 1px solid #96d1f8;
-   background: #ff0000;
-   background: -webkit-gradient(linear, left top, left bottom, from(#f70d0d), to(#ff0000));
-   background: -webkit-linear-gradient(top, #f70d0d, #ff0000);
-   background: -moz-linear-gradient(top, #f70d0d, #ff0000);
-   background: -ms-linear-gradient(top, #f70d0d, #ff0000);
-   background: -o-linear-gradient(top, #f70d0d, #ff0000);
+   border: 2px solid #ffd700;
+   background: #191970;
+   background: -webkit-gradient(linear, left top, left bottom, from(#191970), to(#191970));
+   background: -webkit-linear-gradient(top, #191970, #191970);
+   background: -moz-linear-gradient(top, #191970, #191970);
+   background: -ms-linear-gradient(top, #191970, #191970);
+   background: -o-linear-gradient(top, #191970, #191970);
    padding: 6.5px 13px;
    -webkit-border-radius: 32px;
    -moz-border-radius: 32px;
@@ -96,7 +103,10 @@ input {
 }
 
 #tweet-count {
-  display: none;
+  margin-bottom: 30px;
+  color: #ffd700;
+  position: center;
+  font-family: 'Oswald', sans-serif;
 }
 
 #counter {
