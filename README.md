@@ -1,6 +1,7 @@
+# mubb_tweets
+
 Long weekend project completed during the program
 
-# mubb_tweets
 tracks all tweets with the hashtag -  #mubb (mubb = marquette university basketball)
 mubbtweets.herokuapp.com
 
